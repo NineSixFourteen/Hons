@@ -1,0 +1,33 @@
+Total time: 0	 Number of runs: 25	Average time : 287
+quickest time : 272	 longest time : 314
+average of fastest 5% : 272	 average of slowest 5% : 314
+average excluding top 5% and bottom 5% : 286
+0. 290
+1. 314
+2. 298
+3. 288
+4. 289
+5. 287
+6. 287
+7. 272
+8. 277
+9. 276
+10. 276
+11. 288
+12. 289
+13. 292
+14. 286
+15. 285
+16. 309
+17. 289
+18. 276
+19. 288
+20. 278
+21. 307
+22. 280
+23. 272
+24. 284
+One Percent fastest times 
+0. 272
+One Percent slowest times 
+0. 314

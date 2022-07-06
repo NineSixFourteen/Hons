@@ -1,0 +1,40 @@
+import java.math.BigInteger ;
+const PI = 3.14159265359 ;
+constFunc CirOfCir : CirOfCir r : PI * r * 2 ;
+constFunc `+` : a `+` b : BigInteger.valueOf(a).add(BigInteger.valueOf(b)) ;
+constFunc +` : +` b : .add(BigInteger.valueOf(b)) ;
+constFunc ` : ` b : BigInteger.valueOf(b) ;
+constFunc +B : a +B b : a.add(b) ;
+constFunc ^ : a ^ b : Math.pow(a , b) ;
+constFunc ** : a ** b : Math.pow(a, b) ;
+constFunc cout : cout << a : System.out.println(a)  ;
+constFunc P : P a : Print a;
+constFunc √ : √ a : Math.sqrt(a) ;
+
+
+public class syntax {
+
+    main(){
+        BigInteger bi =  8 `+` 2 +` 10 +` 2 +` 3 ;
+        Print bi ;
+        Print fib(1000) ;
+        Print CirOfCir 3 ;
+        Print 2 ^ 3 ;
+        cout << "Hello" ;
+        System.out.println(10) ;
+        Print √ ( 3 ^ 2 + 4 ^ 2) ;
+    }
+
+    static BigInteger fib(int n){
+            BigInteger a = ` 0;
+            BigInteger b = ` 1;
+            BigInteger c = ` 1;
+            for (int j = 2 , j <= n , 1){
+                c =  a +B b;
+                a = b;
+                b = c;
+            }
+            return (b);
+    }
+
+}

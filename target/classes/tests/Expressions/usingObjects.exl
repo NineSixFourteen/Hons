@@ -1,0 +1,38 @@
+import java.math.BigInteger ;
+class usingObjects {
+
+    main(){
+        int i = data.i ;
+        float f = data.f ;
+        long l = data.l;
+        double d = data.d ;
+        int[] ii = data.ii;
+        float[] ff = data.ff ;
+        long[] ll = data.ll ;
+        double[] dd = data.dd ;
+        int[][] iii = data.iii;
+        float[][] fff = data.fff ;
+        long[][] lll = data.lll ;
+        BigInteger bi = data.bi;
+        BigInteger[] bii = data.bii ;
+        Print i ;
+        Print f ;
+        Print l ;
+        Print d ;
+        Print ii[0] ;
+        Print ff[0] ;
+        Print ll[0] ;
+        Print iii[0][0] ;
+        Print fff[0][0] ;
+        Print lll[0][0] ;
+        Print bi ;
+        Print bii[0] ;
+        data a = new data(4) ;
+        a.print() ;
+        data.plus(data.i , ii[0]) ;
+        data.plus(data.d , dd[0]) ;
+        data.plus(data.l , ll[0]) ;
+        data.plus(data.f , ff[0]) ;
+
+    }
+}

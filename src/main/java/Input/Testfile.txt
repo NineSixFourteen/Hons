@@ -1,0 +1,21 @@
+class teast {
+
+    def void main(){
+        int a = 4 + 10 ;
+        System.out.println( 10I ) ;
+
+    }
+
+    def public int yep(double a){
+        return 1 ;
+    }
+
+    def private static int yep(int a ){
+        if( a != 0 ) {
+            Print yep(a) ;
+            return 0 ;
+        }
+        return a ;
+    }
+
+}

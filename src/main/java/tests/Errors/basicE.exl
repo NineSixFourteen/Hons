@@ -1,0 +1,29 @@
+public class basicE {
+
+    int a = 2 + 0.5;
+    int b = d(2) ;
+    int c = new int[2] ;
+    int[][] d = new int[2] ;
+    int e = "5";
+    int[] f = new int[2][2] ;
+    float g = a ;
+    float s = a();
+    int sd = b() ;
+    float e = d(2.4) ;
+
+    static {
+        int a(){
+            return 4 ;
+        }
+        float b(){
+            return 5 ;
+        }
+        int c(int a ) {
+            return 6 ;
+        }
+        float d(int a ) {
+            return 7 ;
+        }
+    }
+
+}

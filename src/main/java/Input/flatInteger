@@ -1,0 +1,51 @@
+public class flatInteger {
+
+    int[] dimensions = new int[2] ;
+    int[] body = new int[2] ;
+
+    public flatInteger(int[] a ){
+        dimensions = a ;
+        int num = calc(a);
+        body = new int[num];
+    }
+
+     int calc(int[] a) {
+        int l = 1 ;
+        for(int i = 0 , i < a.length , 1){
+            l = l * a[i];
+        }
+        return l ;
+    }
+
+    void set(int[] a , int b){
+        int element = calcElem(a) ;
+        body[element] = b ;
+    }
+
+    int get(int[] a ) {
+        return body[calcElem(a)];
+    }
+
+    int calcElem(int[] a){
+        int total  = 0 ;
+        for (int i = 0 , i < a.length , 1){
+            tot = tot + a[i] * prodOfLeft(i);
+        }
+        return total ;
+    }
+
+    int prodOfLeft(int m) {
+        int prod = 1;
+        for (int i = m + 1 , i < dimensions.length , 1){
+            prod = prod * dimensions[i];
+        }
+        return prod ;
+    }
+
+    public void print(){
+        for (int i = 0 , i < body.length , 1){
+            Print body[i];
+        }
+    }
+
+}

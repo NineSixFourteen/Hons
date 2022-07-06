@@ -1,0 +1,63 @@
+import java.util.ArrayList;
+public class Prog2e {
+
+    main(){
+        long start = System.currentTimeMillis() ;
+        findPath("MI", "MUIU");
+        findPath("MI" , "MIUIUIUIU");
+        findPath("MI" , "MUIIU");
+        findPath("MI" , "MIUIIIIUIUIIIIU");
+        findPath("MI" , "MUIU");
+        findPath("MI" , "MIUIUIUIU");
+        findPath("MI" , "MUIIU");
+        findPath("MI" , "MIIUUII");
+        findPath("MI" , "Notpos");
+        findPath("MI" , "Notpos");
+        long end = System.currentTimeMillis() ;
+        long diff = end - start ;
+        System.out.println(diff);
+
+    }
+
+    public static void findPath(String start , String End) {
+        ArrayList paths = new ArrayList();
+        paths.add(start);
+        boolean b = paths.contains(End) ;
+        b = b == false ;
+        while(b){
+            if(paths.size() > 30000){
+                return ;
+            }
+            String s = (String) paths.get(0);
+            paths.remove(0);
+            ArrayList newPaths = checkRules(s);
+            for(int i = 0 , i < newPaths.size() , 1) {
+                paths.add(newPaths.get(i)) ;
+            }
+            b = paths.contains(End) ;
+            b = b == false ;
+        }
+    }
+
+    public static ArrayList checkRules(String start) {
+        ArrayList newPaths = new ArrayList();
+        if(start.endsWith("I")){
+            newPaths.add(start + "U");
+        }
+        newPaths.add( start + start.substring(1));
+        for(int i = 0 , i < start.length() - 3, 1){
+            if(start.charAt(i) == 'I' && start.charAt(i + 1) == 'I' && start.charAt(i + 2) == 'I'){
+                int l = i + 2 ;
+                newPaths.add(start.substring(0 , i) + "U" + start.substring(l));
+            }
+        }
+        for(int i = 0 , i < start.length() - 2, 1 ){
+            if(start.charAt(i) == 'U' && start.charAt(i + 1) == 'U' ){
+                int l = i + 2 ;
+                newPaths.add(start.substring(0 , i) + start.substring(l));
+            }
+        }
+        return newPaths ;
+    }
+
+}

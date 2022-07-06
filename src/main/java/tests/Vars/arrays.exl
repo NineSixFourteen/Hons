@@ -1,0 +1,19 @@
+import java.math.BigInteger ;
+public class arrays {
+
+    main(){
+        int[] i = [ 2, 2 , 2 + 9] ;
+        float[] f = new float[2] ;
+        double[] d = [2.2 , 2.2 , 2.7 * 2 ] ;
+        long[] l = new long[10] ;
+        String[] s = ["dsd" , "rat" , "pop" + "er" ] ;
+        BigInteger[] BI = [new BigInteger("5") , new BigInteger("4").add(new BigInteger("3")) ] ;
+        Print i[2] ;
+        Print f[0] ;
+        Print d[2] ;
+        Print l[0] ;
+        Print s[2] ;
+        Print BI[1] ;
+
+    }
+}

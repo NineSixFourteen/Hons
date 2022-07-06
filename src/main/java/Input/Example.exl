@@ -1,0 +1,19 @@
+class example {
+
+    int a = 4 ;
+    float b = 4 ;
+
+    example(){
+        Print 100 ;
+    }
+
+    main(){
+        for(int i = 0, i < 10 , 0){
+            Print doubleVal(i) ;
+        }
+    }
+
+    static int doubleVal(int a) {
+        return a * 2 ;
+    }
+}

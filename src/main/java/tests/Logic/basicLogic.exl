@@ -1,0 +1,37 @@
+public class basicLogic {
+
+    main(){
+        int a = 2 ;
+        int aa = 23;
+        boolean b = 9 < 10 ;
+        boolean c = 1 == 2 ;
+        boolean d = 1.2 != 2 ;
+        boolean e = 9.5 > 10 ;
+        boolean f = 1 >= 2 ;
+        boolean g = 2 >= 2 ;
+        boolean h = 2 <= 2 ;
+        boolean i = a < aa ;
+        boolean l = b == c ;
+        boolean j = false == true ;
+        if(9 < 10 ) {
+            Print "yes";
+        }
+        if(a < aa) {
+            Print "yes";
+        }
+        for(int s = 0 , s < 5 , 1) {
+            Print s ;
+        }
+        Print b ;
+        Print c ;
+        Print d ;
+        Print e ;
+        Print f ;
+        Print g ;
+        Print h ;
+        Print i ;
+        Print j ;
+        Print l ;
+
+    }
+}

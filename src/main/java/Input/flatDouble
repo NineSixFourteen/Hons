@@ -1,0 +1,52 @@
+public class flatDouble {
+
+    int[] dimensions = new int[2] ;
+    double[] body = new double[2] ;
+
+    public flatDouble(int[] a ){
+        dimensions = a ;
+        int num = calc(a);
+        body = new double[num];
+        Print num ;
+    }
+
+     int calc(int[] a) {
+        int l = 1 ;
+        for(int i = 0 , i < a.length , 1){
+            l = l * a[i];
+        }
+        return l ;
+    }
+
+    void set(int[] a , double b){
+        int element = calcElem(a) ;
+        body[element] = b ;
+    }
+
+    double get(int[] a ) {
+        return body[calcElem(a)];
+    }
+
+    int calcElem(int[] a){
+        int tot = 0 ;
+        for (int i = 0 , i < a.length , 1){
+            tot = tot + a[i] * prodOfLeft(i);
+        }
+        return tot ;
+    }
+
+    int prodOfLeft(int m) {
+        int prod = 1;
+        for (int i = m + 1 , i < dimensions.length , 1){
+            prod = prod * dimensions[i];
+        }
+        return prod ;
+    }
+
+    public void print(){
+        for (int i = 0 , i < body.length , 1){
+            Print body[i];
+        }
+    }
+
+}

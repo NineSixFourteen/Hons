@@ -1,0 +1,121 @@
+class exampleOne {
+
+    int dsa = 100 ;
+
+    exampleOne(){
+        Print 100 ;
+    }
+
+    main(){
+        int dsa = 120 ;
+        Print Math.abs( 17 ) ;
+        Print Math.abs(2 ) ;
+        System.out.println("ds") ;
+        Math.abs(2) ;
+        Print dsa ;
+        float a = 100.4  ;
+        Print a ;
+        a = 100 ;
+        Print a ;
+        Print 100.4 ;
+        caller(100) ;
+        poller(100) ;
+        Lopal(10) ;
+        Boopy(1) ;
+        int asdsa = 2 ;
+        char f = tall(2 , 4);
+        String s = foo("ds" , asdsa) ;
+        Print s ;
+        boolean b = 9 + 10 - 8 * 3 < 30 ;
+        boolean c = true ;
+        char as = 's';
+        String rew = "dsds dssdsds" ;
+        Print bar("dss") ;
+        Print b ;
+        Print c ;
+        Print as ;
+        Print rew ;
+        boolean[] dip = [ 12 < 10 , 9 < 10  ] ;
+        char[] chappy = [ 2 , 'c' , 1 + 'a' , 'c' ] ;
+        boolean bdds = dip[0];
+        char cdds = chappy[2] ;
+        Print cdds ;
+        Print bdds ;
+
+        if(true ) {
+            Print 100 ;
+        }
+    }
+
+    static char tall(int a , int b) {
+        for i (0 , 1) {
+            Print 10 / 8 + 10 / (10 - 12) / (902 * 2 + 2 ) * 6 ;
+        }
+        return 'c' ;
+    }
+
+    static void Lopal(int a) {
+        for i (0 , 10) {
+            if(a < 10) {
+                Print 10 ;
+                if(a < 2) {
+                    Print 8 ;
+                } else if ( a < 3) {
+                    Print 123 ;
+                } else {
+                    Print 200 ;
+                }
+            }
+        }
+    }
+
+    static String foo(String s , int a ) {
+        if(a == 1) {
+            return "one" ;
+        }
+        if(a == 2) {
+            return "two" ;
+        }
+        if(a == 3) {
+            return "three" ;
+        }
+        return "Please give a number below 3 " ;
+    }
+
+   static String bar(String s){
+        return s ;
+    }
+
+   static boolean bull(boolean b ) {
+        return false ;
+    }
+
+    static int biter(int a) {
+            if(a + 100 > 10 - 50 ){
+                Print 100 ;
+            } else if (a > 7 ) {
+                return 2 ;
+            } else if (a > 5 ) {
+                Print 100 ;
+            } else {
+                return 4 ;
+            }
+            return 100 ;
+    }
+
+    static void caller(int a) {
+        Print a ;
+    }
+
+    static int poller(int a) {
+        return a ;
+    }
+
+    static void Boopy(int a) {
+        for i (0 , 10 ) {
+            for j (0 , 10) {
+                Print i + j ;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+
+public class basicExp {
+
+    main(){
+        int i = 0 * 3  ;
+        int l = 1 + 10 * 4 ;
+        int r = 2  * (5 + 10) ;
+        Print i ;
+        Print l ;
+        Print r ;
+        int s3 = i / l * r + 902 / 2 + 100 * r + r * r * r ;
+        Print s3 ;
+        Print (i / (l * r + 902) / (2 + 100 * r) + r * r * r) * s3 ;
+        double d = 0 * 3  ;
+        double e = 1 + 10 * 4 ;
+        double sr = 2  * (5 + 10) ;
+        Print d ;
+        Print e ;
+        Print sr ;
+        double ds = d / e * sr + 902 / 2 + 100 * sr + sr * sr * sr ;
+        Print ds ;
+        Print (d / (e * sr + 902) / (2 + 100 * sr) + sr * sr * sr) * ds ;
+        long ld = 0 * 3  ;
+        long le = 1 + 10 * 4 ;
+        long lsr = 2  * (5 + 10) ;
+        Print ld ;
+        Print le ;
+        Print lsr ;
+        long lds = ld / le * lsr + 902 / 2 + 100 * lsr + lsr * lsr * lsr ;
+        Print lds ;
+        Print (ld / (le * lsr + 902) / (2 + 100 * lsr) + lsr * lsr * lsr) * lds ;
+        float fd = 0 * 3  ;
+        float fe = 1 + 10 * 4 ;
+        float fsr = 2  * (5 + 10) ;
+        Print fd ;
+        Print fe ;
+        Print fsr ;
+        float fds = fd / fe * fsr + 902 / 2 + 100 * fsr + fsr * fsr * fsr ;
+        Print fds ;
+        Print (fd / (fe * fsr + 902) / (2 + 100 * fsr) + fsr * fsr * fsr) * fds ;
+    }
+
+}

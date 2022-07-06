@@ -1,0 +1,23 @@
+import java.math.BigInteger ;
+public class vars {
+    main(){
+        int i = 10 ;
+        char c = 'd';
+        boolean b = false ;
+        double d = 100 ;
+        float f = 10.2;
+        long l  = 1000 ;
+        int[][] a = [ [ 2 , 2 ] , [2, 2] , [2 , 2] ] ;
+        float[] fs = [ 2.4 , 3 , 5 ] ;
+        String s = "sds";
+        BigInteger BI = BigInteger.valueOf(5);
+        Print i ;
+        Print c ;
+        Print d ;
+        Print b ;
+        Print f ;
+        Print l ;
+        Print s ;
+        Print BI ;
+    }
+}

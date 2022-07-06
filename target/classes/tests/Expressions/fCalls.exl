@@ -1,0 +1,55 @@
+
+public class fCalls {
+
+    main(){
+        int i = 2 * foo(2) + bar(9 + 10 * 3) + loo(foo(2 / 1) , bar(23 * loo(1,2) ) )  + 100;
+        Print i ;
+        double d = 2 * foo(2D) + bar(9D + 10 * 3) + loo(foo(2D / 1) , bar(23D * loo(1D,2) ) ) + 100;
+        Print d ;
+        long  l = 2 * foo(2L) + bar(9L + 10 * 3) + loo(foo(2L / 1) , bar(23L * loo(1L,2) ) )  + 100;
+        Print l ;
+        float f = 2 * foo(2F) + bar(9F + 10 * 3) + loo(foo(2F / 1) , bar(23F * loo(1F,2) ) ) + 100;
+        Print f ;
+    }
+
+    static {
+        int foo(int a) {
+            return a * 3 / 2 ;
+        }
+        int bar(int a) {
+          return a * 2 / 3 ;
+        }
+        int loo(int a , int b) {
+            return a * b ;
+        }
+        double foo(double a) {
+            return a * 3 / 2 ;
+        }
+        double bar(double a) {
+          return a * 2 / 3 ;
+        }
+        double loo(double a , double b) {
+            return a * b ;
+        }
+        long foo(long a) {
+            return a * 3 / 2 ;
+        }
+        long bar(long a) {
+          return a * 2 / 3 ;
+        }
+        long loo(long a , long b) {
+            return a * b ;
+        }
+        float foo(float a) {
+            return a * 3 / 2 ;
+        }
+        float bar(float a) {
+          return a * 2 / 3 ;
+        }
+        float loo(float a , float b) {
+            return a * b ;
+        }
+
+    }
+
+}

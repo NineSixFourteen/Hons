@@ -1,0 +1,26 @@
+import java.math.BigInteger ;
+public class arraysMD {
+
+    main(){
+        int[][] i = [ [ 2, 2 , 2 + 9] , [ 21, 23 , 22 + 92 ] , [ 20, 8 , 4 + 10]];
+        float[][] f = new float[2][1] ;
+        double[][] d = [ [2.2 , 2.2 , 2.7 * 2 ] , [2.2 , 2.2 , 2.7 * 2 ] , [2.2 , 2.2 , 2.7 * 2 ] ]  ;
+        long[][] l = new long[10][2] ;
+        String[][] s = [ ["dsd" , "rat" , "pop" + "er" ] ];
+        BigInteger[][] BI = [ [new BigInteger("5") , new BigInteger("4").add(new BigInteger("3")) ] , [new BigInteger("5") , new BigInteger("4").add(new BigInteger("1")) ] ] ;
+        int[][][][][][][][][][] BigArray = new int[2][2][2][2][2][2][2][2][2][2];
+        BigInteger[][][][][] SmallerArray = new BigInteger[2][2][2][2][2] ;
+        float[][][][] fsd = [ [ [ [ 1  ,2 ] , [1, 2] ] , [ [ 1  ,2 ] , [1, 2] ] ,  [ [ 1  ,2 ] , [1, 2] ] ] , [ [ [ 1  ,2 ] , [1, 2] ] , [ [ 1  ,2 ] , [1, 2] ] ,  [ [ 1  ,2 ] , [1, 2] ] ] ] ;
+        Print i[2][1] ;
+        Print f[0][0] ;
+        Print d[2][1] ;
+        Print l[0][0] ;
+        Print s[0][0] ;
+        Print BI[0][0] ;
+        Print BigArray[0][0][0][0][0][0][0][0][0][0] ;
+        Print SmallerArray[0][0][0][0][0] ;
+        Print fsd[0][0][1][1] ;
+
+    }
+
+}

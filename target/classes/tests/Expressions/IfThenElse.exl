@@ -1,0 +1,22 @@
+import java.math.BigInteger ;
+public class IfThenElse {
+
+    main(){
+        int i = if 9 < 10 then 10 else 9 ;
+        double d = if 1 < 2 then 11 else 8 ;
+        float f = if i < 10 && true || false then 11 else 6 ;
+        boolean b = if 9 < 100 then i < 10 else i > 10 ;
+        BigInteger bi = if true then new BigInteger("5") else BigInteger.valueOf(6) ;
+        BigInteger[] bib = if false then new BigInteger[2] else new BigInteger[2] ;
+        int[] iii = [ 2 , 2, 2 ] ;
+        int[] ii = if false then new int[2] else iii ;
+        Print i ;
+        Print d ;
+        Print f ;
+        Print b ;
+        Print bi ;
+        Print ii[0] ;
+        Print bib[0] ;
+    }
+
+}

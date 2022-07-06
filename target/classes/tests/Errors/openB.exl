@@ -1,0 +1,23 @@
+public class openB {
+
+    int a = ( 9 + 10 ;
+    float b = b( ;
+    long l = 9 + a[;
+    long[] l = [ 2 , 2 , 2 , ;
+
+    static {
+
+        float b(){
+            return 10 ;
+        }
+
+        float err(){
+            return b(  ;
+        }
+
+        int eas(){
+            int f = 2 ;
+            return f[ ;
+        }
+    }
+}

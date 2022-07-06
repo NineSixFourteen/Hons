@@ -1,0 +1,18 @@
+public class flatArrays {
+
+    main(){
+        int[][]* i = new int[2][2];
+        i[0][1] = 10 ;
+        Print i[0][1] ;
+        double[][]* d = new double[2][3] ;
+        d[0][2] = 1.4 ;
+        Print d[0][2] ;
+        int[][][]* is = new int[4][10][2];
+        is[2][1][0] = 14 ;
+        Print is[2][1][0] ;
+        double[][][]* ds = new double[3][2][6] ;
+        ds[1][1][1] = 4.4 ;
+        Print ds[1][1][1] ;
+    }
+
+}

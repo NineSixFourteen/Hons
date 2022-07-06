@@ -1,0 +1,38 @@
+public class mixingUp {
+
+    main(){
+        int[] ii = [2, 2 ,2 , 2 ] ;
+        int i = data.plus(doubleUp(ii[0]) ,  ii[doubleUp(1)]) + data.i ;
+        float[] ff = [2.2 , 2.2 , 2.2 ] ;
+        float f = data.plus(doubleUp(ff[0] + doubleUp(3F)) , ff[0] + doubleUp(doubleUp(ff[0])));
+        long[] ll =  [2, 2 ,2 , 2 ] ;
+        long l = data.plus(doubleUp(ll[0] + doubleUp(3L)) , ll[0] + doubleUp(doubleUp(ll[0])));
+        double[] dd =  [2, 2 ,2 , 2 ] ;
+        double d = data.plus(doubleUp(dd[0] + doubleUp(3D)) , dd[0] + doubleUp(doubleUp(dd[0])));
+        Print i ;
+        Print f ;
+        Print l ;
+        Print d ;
+    }
+
+    static {
+
+        int doubleUp(int a ){
+            return a * 2 ;
+        }
+
+        float doubleUp(float a) {
+            return a * 2 ;
+        }
+
+        long doubleUp(long a ){
+            return a * 2 ;
+        }
+
+        double doubleUp(double a) {
+            return a * 2 ;
+        }
+
+    }
+
+}

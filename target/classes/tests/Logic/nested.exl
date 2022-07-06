@@ -1,0 +1,38 @@
+public class nested{
+
+    main(){
+        for(int i = 0 , i < 1 , 1) {
+            Print 10 ;
+            for(double j = 10 , j < 15 , 1) {
+                Print j ;
+                if(1 < 2){
+                    if(1 < 2) {
+                        for(int a = 4 , a > 2 , -1){
+                            Print a ;
+                        }
+                    }
+                    Print 2 ;
+                }
+            }
+        }
+        aba() ;
+    }
+
+    static void aba(){
+        for(int i = 0 , i < 1, 1) {
+            Print 10 ;
+            for(double j = 10 , j < 15, 1) {
+                Print j ;
+                if(1 < 2){
+                    if(1 < 2) {
+                        for(int a = 4 , a > 2 , -1){
+                            Print a ;
+                        }
+                    }
+                    Print 2 ;
+                }
+            }
+        }
+    }
+
+}

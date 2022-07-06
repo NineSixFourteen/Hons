@@ -1,0 +1,25 @@
+public class moreLogic {
+
+    main(){
+        int a = 2 ;
+        int aa = 23;
+        boolean b = 9 < 10 && true && true && true && true || false ;
+        boolean c = 1 == 2 && false && false && false && false || false;
+        boolean d = 1.2 != 2 && false && false && false || false;
+        boolean e = 9.5 > 10  && 9.6 < 10 && 2 != 1 && 2.1 != 2;
+        if(9 < 10 && false || 2 < 3 ) {
+            Print "yes";
+        }
+        if(a < aa && true) {
+            Print "yes";
+        }
+        for(int s = 0 , s < 5 , 1) {
+            Print s ;
+        }
+        Print b ;
+        Print c ;
+        Print d ;
+        Print e ;
+
+    }
+}
